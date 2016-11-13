@@ -1,0 +1,31 @@
+.block{
+    position:relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    border: 3px solid #2c699e;
+    color: black;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    font-size: 20px;
+
+
+}
+.start,
+.clear{
+    margin-bottom: 20px;
+}
+.block-container{
+    text-align: center;
+}
+
+.highlight {
+    font-weight: bold;
+    background-color: #b0d2ef;
+}
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <link href="index.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="index.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="row text-center">
+        <h2>How many blocks would you like us to draw?</h2>
+        <div class="col-md-offset-4 col-md-4 text-center">
+            <div >
+                <label>
+                    <input class="form-control amount" type="text" placeholder="Number">
+                </label>
+            </div>
+            <div >
+                <h2>Please choose type of sorting, and press Start button</h2>
+                <label>
+                    <select class="form-control" style='width: 214px;'>
+                        <option value="selection-sort">Selection sort</option>
+                        <option value="bubble-sort">Bubble sort</option>
+                    </select>
+                </label>
+            </div>
+            <input type="button" class="btn btn-primary start" value="Start">
+            <input type="button" class="btn btn-primary clear" value="Clear">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="block-container">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
